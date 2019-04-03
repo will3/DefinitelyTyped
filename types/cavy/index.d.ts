@@ -38,3 +38,7 @@ export class TestScope {
     exists(identifier: string): Promise<true>;
     notExists(identifier: string): Promise<true>;
 }
+
+export class TestHookStore {
+    
+}
